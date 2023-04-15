@@ -65,10 +65,14 @@ button{
 .hero-img-container{
     width: 50%;
     min-width: 50%;
+    display: flex;
+    justify-content: end;
 }
 #hero-img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 250px;
+    flex-grow: 1;
+    border-radius: 4px;
 }
 
 .info{
