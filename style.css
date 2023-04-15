@@ -71,3 +71,37 @@ button{
     height: auto;
 }
 
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.page-two{
+    padding: 52px 200px 100px 200px;
+}
+
+.page-two-main-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 16px 0;
+}
+
+
+.info-item{
+    width: 200px;
+}
+.random-info-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+
+.info-item p{
+    color: #727479;;
+    text-align: center;
+    margin: 8px 0;
+}
